@@ -1,5 +1,4 @@
 .step-1 {
-  border-right: 1px dotted #a59c9c;
   /*background-color: rgba(255, 235, 0, .02);*/
   text-align: center;
 }
@@ -18,7 +17,6 @@
 }
 
 .step-2 {
-  border-right: 1px dotted #8f8787;
   /*background-color: rgba(33, 92, 145, .02);*/
   text-align: center;
 }
@@ -61,6 +59,10 @@
   background-color: #f0ca05;
 }
 
+.stage-title {
+  margin-top: 20px !important;
+}
+
 .stage-title-1 {
   color: #f0ca05;
 }
@@ -71,4 +73,10 @@
 
 .stage-title-3 {
   color: #f3088c;
+}
+
+@media (min-width: 768px) {
+  .step-1, .step-2 {
+    border-right: 1px dotted #a59c9c;
+  }
 }
