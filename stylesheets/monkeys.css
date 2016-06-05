@@ -1,0 +1,74 @@
+.step-1 {
+  border-right: 1px dotted #a59c9c;
+  /*background-color: rgba(255, 235, 0, .02);*/
+  text-align: center;
+}
+
+.monkey-image {
+  background-color: #fffde6;
+}
+
+.stage-2 {
+  text-align: center;
+}
+
+.step-3 {
+  /*background-color: rgba(243, 8, 140, .02);*/
+  text-align: center;
+}
+
+.step-2 {
+  border-right: 1px dotted #8f8787;
+  /*background-color: rgba(33, 92, 145, .02);*/
+  text-align: center;
+}
+
+.monkey-title {
+  margin-right: 10px;
+  margin-left: 10px;
+  font-size: 25px;
+  line-height: 30px;
+  text-transform: none;
+}
+
+.link-button {
+  border-radius: 8px;
+  background-color: #215c91;
+  /* box-shadow: 1px 1px 3px 0 #000; */
+  /*font-family: 'Varela Round', sans-serif;*/
+  font-size: 20px;
+  padding: 30px;
+}
+
+.link-button:hover {
+  opacity: 0.7;
+}
+
+.link-button._3 {
+  padding-top: 15px;
+  padding-bottom: 15px;
+  background-color: #f3088c;
+}
+
+.link-button._2 {
+  padding-top: 15px;
+  padding-bottom: 15px;
+}
+
+.link-button._1 {
+  padding-top: 15px;
+  padding-bottom: 15px;
+  background-color: #f0ca05;
+}
+
+.stage-title-1 {
+  color: #f0ca05;
+}
+
+.stage-title-2 {
+  color: #215c91;
+}
+
+.stage-title-3 {
+  color: #f3088c;
+}
